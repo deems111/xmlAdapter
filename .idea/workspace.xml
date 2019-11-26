@@ -2,7 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ddb9f20-8ab8-4fe3-b629-fca29a1d5ee2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/request/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/AddressImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/CustomerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/Interface/AddressIntf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/Interface/CustomerIntf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/Interface/PassportIntf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/Interface/RequestIntf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/Interface/ResponseIntf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/PassportImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/RequestImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/ResponseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/JDBC.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ResponseFromXMLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Execute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Execute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/JDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/JDBCIntf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/JDBCProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/Interface/JDBCProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/request/XmlRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/request/XmlRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Execute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/JDBC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/JDBCIntf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/JDBCProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Util/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Util/Utility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bean/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/request/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/request/Passport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/request/XmlRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/response/XmlResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parse/XMLParser.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,8 +52,10 @@
         <counts>
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.61" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.66" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -27,36 +63,40 @@
           <entry key="class" value="3" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="35" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="149" />
+          <entry key="md" value="4" />
+          <entry key="properties" value="4" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="35" />
+          <entry key="JAVA" value="149" />
+          <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="2" />
+          <entry key="Properties" value="4" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="5" />
+          <entry key="dummy" value="50" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="3677" />
-          <entry key="properties" value="11" />
-          <entry key="xml" value="9" />
+          <entry key="java" value="5586" />
+          <entry key="md" value="140" />
+          <entry key="properties" value="25" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3677" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Properties" value="11" />
-          <entry key="XML" value="9" />
+          <entry key="JAVA" value="5586" />
+          <entry key="Markdown" value="140" />
+          <entry key="PLAIN_TEXT" value="51" />
+          <entry key="Properties" value="25" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -67,138 +107,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bean/Driver.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/repository/Interface/JDBCProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="45" column="28" selection-end-line="122" selection-end-column="1" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entity/request/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1547">
+              <caret line="125" column="29" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#1469#1470#0" expanded="true" />
+                <element signature="e#1496#1497#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parse/XMLParser.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entity/request/Address.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="11" column="13" selection-end-line="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/JDBC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="19" column="14" selection-end-line="184" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/JDBCIntf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="9" column="17" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/JDBCProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entity/request/XmlRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1255#1256#0" expanded="true" />
-                <element signature="e#1286#1287#0" expanded="true" />
-                <element signature="e#1332#1333#0" expanded="true" />
-                <element signature="e#1372#1373#0" expanded="true" />
-                <element signature="e#1407#1408#0" expanded="true" />
-                <element signature="e#1438#1439#0" expanded="true" />
-                <element signature="e#1486#1487#0" expanded="true" />
-                <element signature="e#1526#1527#0" expanded="true" />
-                <element signature="e#1563#1564#0" expanded="true" />
-                <element signature="e#1596#1597#0" expanded="true" />
-                <element signature="e#1648#1649#0" expanded="true" />
-                <element signature="e#1692#1693#0" expanded="true" />
-                <element signature="e#1724#1725#0" expanded="true" />
-                <element signature="e#1752#1753#0" expanded="true" />
-                <element signature="e#1794#1795#0" expanded="true" />
-                <element signature="e#1828#1829#0" expanded="true" />
-                <element signature="e#1860#1861#0" expanded="true" />
-                <element signature="e#1888#1889#0" expanded="true" />
-                <element signature="e#1930#1931#0" expanded="true" />
-                <element signature="e#1964#1965#0" expanded="true" />
-                <element signature="e#1998#1999#0" expanded="true" />
-                <element signature="e#2028#2029#0" expanded="true" />
-                <element signature="e#2074#2075#0" expanded="true" />
-                <element signature="e#2112#2113#0" expanded="true" />
-                <element signature="e#2143#2144#0" expanded="true" />
-                <element signature="e#2170#2171#0" expanded="true" />
-                <element signature="e#2210#2211#0" expanded="true" />
-                <element signature="e#2242#2243#0" expanded="true" />
-                <element signature="e#2279#2280#0" expanded="true" />
-                <element signature="e#2312#2313#0" expanded="true" />
-                <element signature="e#2364#2365#0" expanded="true" />
-                <element signature="e#2408#2409#0" expanded="true" />
-                <element signature="e#2444#2445#0" expanded="true" />
-                <element signature="e#2476#2477#0" expanded="true" />
-                <element signature="e#2526#2527#0" expanded="true" />
-                <element signature="e#2568#2569#0" expanded="true" />
-                <element signature="e#2596#2597#0" expanded="true" />
-                <element signature="e#2622#2623#0" expanded="true" />
-                <element signature="e#2658#2659#0" expanded="true" />
-                <element signature="e#2688#2689#0" expanded="true" />
-                <element signature="e#2725#2726#0" expanded="true" />
-                <element signature="e#2756#2757#0" expanded="true" />
-                <element signature="e#2806#2807#0" expanded="true" />
-                <element signature="e#2846#2847#0" expanded="true" />
-                <element signature="e#2886#2887#0" expanded="true" />
-                <element signature="e#2921#2922#0" expanded="true" />
-                <element signature="e#2978#2979#0" expanded="true" />
-                <element signature="e#3026#3027#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entity/response/XmlResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="15" selection-end-line="75" />
+            <state relative-caret-position="187">
+              <caret line="11" column="22" selection-start-line="6" selection-end-line="12" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -209,20 +145,57 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/entity/request/Passport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="48" column="65" selection-end-line="54" />
+            <state relative-caret-position="306">
+              <caret line="26" selection-start-line="6" selection-start-column="3" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entity/request/Address.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entity/request/XmlRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="67" column="65" selection-end-line="80" />
+            <state relative-caret-position="374">
+              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entity/response/XmlResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1483#1484#0" expanded="true" />
+                <element signature="e#1531#1532#0" expanded="true" />
+                <element signature="e#1657#1658#0" expanded="true" />
+                <element signature="e#1703#1704#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parse/XMLParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="14" column="120" selection-start-line="14" selection-start-column="107" selection-end-line="14" selection-end-column="120" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/repository/Interface/AddressIntf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -232,8 +205,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -241,6 +214,7 @@
     <findStrings>
       <find>xmlResponse</find>
       <find>XMLParser</find>
+      <find>post</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -255,21 +229,47 @@
         <option value="$PROJECT_DIR$/src/main/java/Repository/Repository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/JDBCQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/bean/DriverXml.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/response/XmlResponse.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Util/Utility.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Execute.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bean/Driver.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/JDBCIntf.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Util/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/request/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/request/Passport.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/request/XmlRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/parse/XMLParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/JDBC.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/JDBCProperties.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/Interface/Passport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/Interface/Requests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/Interface/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/Interface/RequestsIntf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/AdapterDataIntf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/PassportIntf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Execute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bean/Driver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/LoggerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/Interface/LoggerIntf.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/JDBC.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/Interface/JDBCProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/response/XmlResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Util/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/Interface/CustomerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/Interface/PassportIntf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/Interface/CustomerIntf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/Interface/AddressIntf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/request/XmlRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/Interface/RequestIntf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/AddressImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/CustomerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/PassportImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/RequestImpl.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/ResponseImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/Interface/ResponseIntf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repository/Interface/JDBCProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/request/Customer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ResponseFromXMLTest.java" />
       </list>
     </option>
   </component>
@@ -284,11 +284,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="290" />
     <option name="y" value="135" />
     <option name="width" value="1400" />
-    <option name="height" value="779" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -296,6 +296,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -369,7 +370,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Repository" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adapter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="Interface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="adapter" type="b2602c69:ProjectViewProjectNode" />
@@ -383,27 +393,26 @@
               <item name="adapter" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="adapter" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Дмитрий/GitHub/practice/src/main/java/entity/request/Passport.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574183839224" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574792374022" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -451,17 +460,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.2946309" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.20939597" />
       <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.3557047" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5021097" side_tool="true" weight="0.30402684" />
-      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -470,9 +479,10 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -503,211 +513,271 @@
     <entry file="file://$PROJECT_DIR$/practice.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bean/DriverXml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="107" column="26" selection-start-line="61" selection-start-column="8" selection-end-line="107" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bean/Prorerties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Utility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bean/DriverXml.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/bean/Prorerties.java" />
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="647" column="16" selection-start-line="647" selection-start-column="16" selection-end-line="647" selection-end-column="16" />
-          <folding>
-            <element signature="e#26614#26615#0" expanded="true" />
-            <element signature="e#26657#26658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Execute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#88#89#0" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bean/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="45" column="28" selection-end-line="122" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/request/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="67" column="65" selection-end-line="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/request/Passport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="48" column="65" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/request/XmlRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-            <element signature="e#1286#1287#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
-            <element signature="e#1372#1373#0" expanded="true" />
-            <element signature="e#1407#1408#0" expanded="true" />
-            <element signature="e#1438#1439#0" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-            <element signature="e#1526#1527#0" expanded="true" />
-            <element signature="e#1563#1564#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-            <element signature="e#1752#1753#0" expanded="true" />
-            <element signature="e#1794#1795#0" expanded="true" />
-            <element signature="e#1828#1829#0" expanded="true" />
-            <element signature="e#1860#1861#0" expanded="true" />
-            <element signature="e#1888#1889#0" expanded="true" />
-            <element signature="e#1930#1931#0" expanded="true" />
-            <element signature="e#1964#1965#0" expanded="true" />
-            <element signature="e#1998#1999#0" expanded="true" />
-            <element signature="e#2028#2029#0" expanded="true" />
-            <element signature="e#2074#2075#0" expanded="true" />
-            <element signature="e#2112#2113#0" expanded="true" />
-            <element signature="e#2143#2144#0" expanded="true" />
-            <element signature="e#2170#2171#0" expanded="true" />
-            <element signature="e#2210#2211#0" expanded="true" />
-            <element signature="e#2242#2243#0" expanded="true" />
-            <element signature="e#2279#2280#0" expanded="true" />
-            <element signature="e#2312#2313#0" expanded="true" />
-            <element signature="e#2364#2365#0" expanded="true" />
-            <element signature="e#2408#2409#0" expanded="true" />
-            <element signature="e#2444#2445#0" expanded="true" />
-            <element signature="e#2476#2477#0" expanded="true" />
-            <element signature="e#2526#2527#0" expanded="true" />
-            <element signature="e#2568#2569#0" expanded="true" />
-            <element signature="e#2596#2597#0" expanded="true" />
-            <element signature="e#2622#2623#0" expanded="true" />
-            <element signature="e#2658#2659#0" expanded="true" />
-            <element signature="e#2688#2689#0" expanded="true" />
-            <element signature="e#2725#2726#0" expanded="true" />
-            <element signature="e#2756#2757#0" expanded="true" />
-            <element signature="e#2806#2807#0" expanded="true" />
-            <element signature="e#2846#2847#0" expanded="true" />
-            <element signature="e#2886#2887#0" expanded="true" />
-            <element signature="e#2921#2922#0" expanded="true" />
-            <element signature="e#2978#2979#0" expanded="true" />
-            <element signature="e#3026#3027#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/response/XmlResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="15" selection-end-line="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parse/XMLParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="13" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/JDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="19" column="14" selection-end-line="184" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/JDBCIntf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="9" column="17" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/JDBCProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Interface/Passport.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Interface/Address.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/AdapterData.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/JDBC.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/bean/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/JDBC.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/Interface/CustomerIntf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/JDBCIntf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/CustomerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/AddressImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/PassportImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Execute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="418">
+            <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/RequestImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/ResponseImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="40" column="65" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/Interface/ResponseIntf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/Interface/RequestIntf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/Interface/PassportIntf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/Interface/JDBCProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ResponseFromXMLTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/request/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="6" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/request/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="125" column="29" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
+          <folding>
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/request/Passport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" selection-start-line="6" selection-start-column="3" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/request/XmlRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/response/XmlResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
+            <element signature="e#1531#1532#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parse/XMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="120" selection-start-line="14" selection-start-column="107" selection-end-line="14" selection-end-column="120" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/Interface/AddressIntf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>

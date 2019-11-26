@@ -1,7 +1,7 @@
 package bean;
 
-import Repository.JDBC;
-import Util.Utility;
+import repository.JDBC;
+import util.Utility;
 import entity.request.XmlRequest;
 import entity.response.XmlResponse;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -19,9 +19,9 @@ import java.io.*;
 import java.sql.SQLException;
 import java.util.concurrent.TimeoutException;
 
-import static Util.Constants.AUTH_HOSTNAME;
-import static Util.Constants.AUTH_TOKEN;
-import static Util.Constants.SERVICE_POST_URL;
+import static util.Constants.AUTH_HOSTNAME;
+import static util.Constants.AUTH_TOKEN;
+import static util.Constants.SERVICE_POST_URL;
 
 public class Driver {
 
@@ -71,6 +71,7 @@ public class Driver {
     }
 
     private void saveRequest(XmlRequest xmlRequest) throws SQLException, ClassNotFoundException {
+
         jdbc.saveRequest(xmlRequest);
     }
 
